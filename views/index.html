@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Acauã Transportes</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+        
+    <body>
+        <div id="conteiner">
+            <header>
+                <img id="logo" src="img/logotipo.jpg" alt="Logo da Acauã Transportes">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="/">Início</a></li>
+                        <li><a href="/news">Notícias</a></li>
+                        <li><a href="/sobre.html">Sobre</a></li>
+                        <li><a href="/agenda.html">Agenda</a></li>
+                    </ul>
+                </nav>
+                <button class="login"><a href ="/login">Entrar</a></button>
+            </header>
+
+            <main class="box">
+                <section id="title">
+                    <h1>Notícias Recentes</h1>
+                </section>
+
+                <section id="new1">
+                      
+                    {%include "allnews.html"%}
+
+    
+                </section>
+
+            </main>
+
+            <div class="content">
+                <h1>AGENDA DE VIAJENS</h1>
+                
+                <table border="1" >
+                    <tr>
+                        <th>DIA</th>
+                        <th>LOCAL DE SAÍDA</th>
+                        <th>CIDADES EM QUE PASSA</th>
+                        <th>HORÁRIO</th>
+                        <th>DESTINO</th>
+                    </tr>
+                    <tr>
+                        <td>DOMINGO</td>
+                        <td>QUEIMADA NOVA - PI</td>
+                        <td>ACAUÃ-PI, PAULISTANA-PI</td>
+                        <td>18:00 - 19:00</td>
+                        <td>TERESINA</td>
+                    </tr>
+                    <tr>
+                        <td>SEGUNDA</td>
+                        <td>TERESINA - PI</td>
+                        <td> ACAUÃ-PI, PAULISTANA-PI </td>
+                        <td>19:00</td>
+                        <td>QUEIMADA-NOVA-PI</td>      
+                    </tr>
+                    <tr>
+                        <td>TERÇA</td>
+                        <td>QUEIMADA NOVA - PI</td>
+                        <td>ACAUÃ-PI, PAULISTANA-PI</td>
+                        <td>18:00 - 19:00</td>
+                        <td>TERESINA</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>QUARTA</td>
+                        <td>QUEIMADA NOVA - PI</td>
+                        <td>ACAUÃ-PI, PAULISTANA-PI</td>
+                        <td>18:00 - 19:00</td>
+                        <td>TERESINA</td>
+                            
+                    </tr>
+                    
+                    <tr>
+                        <td>SEXTA</td>
+                        <td>TERESINA - PI</td>
+                        <td>ACAUÃ-PI, PAULISTANA-PI</td>
+                        <td>19:00</td>
+                        <td>QUEIMADA-NOVA-PI</td>      
+                    </tr>
+                </table>
+            </div>
+            
+            <footer>
+                <h1>Acauã Transportes</h1>
+                
+                <span><img src="https://image.flaticon.com/icons/svg/126/126509.svg"> Telefones:(89) 9406-2592 / (89) 9406-1028 Rua Antônio Alfredo,
+                    nº 130,Bairro Cohab,<img src="https://image.flaticon.com/icons/svg/126/126470.svg"> Acauã– PI | CNPJ: 10.694.142/0001-50</span>
+            </footer>
+            
+            <div class="social">
+                <a href="#" target="_blank"><img src="https://image.flaticon.com/icons/svg/145/145805.svg" alt="Instagram"></a>
+                <a href="https://m.facebook.com/Acau%C3%A3-Transportes-178273475838339/?ref=104&mt_nav=0" target="_blank"><img src="https://image.flaticon.com/icons/svg/145/145802.svg" alt="Facebook"></a>      
+            </div>
+
+            <!-- Modal -->
+            <div id="modal" class="hide">
+                <div class="content">
+                    <h1>Nova Ideia</h1>
+                    <form action="">
+
+                        <div class="input-wrapper">
+                            <label for="title">Título da Notícia</label>
+                            <input type="text" name="title">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="descrition">Digite uma descrição para essa Notícia</label>
+                            <textarea name="description" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <a href="#" onclick="onOff()">Voltar</a>
+                        <button>Salvar</button>
+                        
+                    </form>
+                </div>
+            </div>
+
+        </div>
+            
+        <script type="text/javascript" src="js/script.js"></script>
+        
+    </body>
+
+</html>

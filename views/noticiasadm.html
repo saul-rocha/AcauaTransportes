@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Acauã Transportes</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+        
+    <body>
+        <div id="conteiner">
+            <header>
+                <a id="logo" href="index.html"><img src="img/logotipo.jpg" alt="Logo da Acauã Transportes" ></a>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="/">Início</a></li>
+                        <li><a href="/noticias">Notícias</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="agenda.html">Agenda</a></li>
+                    </ul>
+                </nav>
+                <section id="buttons">
+                    <button onclick="onOff()">+ adicionar Noticia</button>
+                </section>
+            </header>
+
+            <section id="title">
+                <h1>Notícias</h1>
+            </section>
+            <main>
+    
+                {%include "allnews.html"%}
+
+            
+                
+            </main>
+            <footer>
+                <h1>Acauã Transportes</h1>
+                
+                <span><img src="https://image.flaticon.com/icons/svg/126/126509.svg"> Telefones:(89) 9406-2592 / (89) 9406-1028 Rua Antônio Alfredo,
+                    nº 130,Bairro Cohab,<img src="https://image.flaticon.com/icons/svg/126/126470.svg"> Acauã– PI | CNPJ: 10.694.142/0001-50</span>
+            </footer>
+            
+            <div class="social">
+                <a href="https://www.instagram.com/sergiodamiao2010/" target="_blank"><img src="https://image.flaticon.com/icons/svg/145/145805.svg" alt="Instagram"></a>
+                <a href="https://m.facebook.com/Acau%C3%A3-Transportes-178273475838339/?ref=104&mt_nav=0" target="_blank"><img src="https://image.flaticon.com/icons/svg/145/145802.svg" alt="Facebook"></a>      
+            </div>
+            
+            
+
+        </div>
+        
+        
+    </body>
+</html>

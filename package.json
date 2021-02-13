@@ -1,0 +1,28 @@
+{
+  "name": "acauatransportes",
+  "version": "1.0.0",
+  "description": "Sistema/site da Empresa Acauã Transportes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saul-rocha/acauatransportes.git"
+  },
+  "keywords": [],
+  "author": "Saul Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saul-rocha/acauatransportes/issues"
+  },
+  "homepage": "https://github.com/saul-rocha/acauatransportes#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^5.0.0"
+  }
+}

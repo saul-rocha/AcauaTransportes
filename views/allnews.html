@@ -1,0 +1,13 @@
+{%for new in news%}
+
+    <div class="news">
+        <img src="{{new.image}}" alt="imagem da noticia">
+        <div class="content">
+            <h2>{{new.title}}</h2>
+            <div class="description">
+                {{new.description}} 
+            </div>
+        </div>   
+    </div>
+
+{%endfor%}
